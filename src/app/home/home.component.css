@@ -1,4 +1,66 @@
-/* teste, apagar */
-p {
-  font-family: 'Nasa';
+
+
+
+
+.home-box{
+  background-color: var(--cinza);
+  height: 100vh;
+  padding-bottom: 45%;
+  background-image: url('../../assets/images/background.png');
+  
+}
+
+
+
+
+
+.image-logo{
+  width: 35%;
+  margin-left: 135px;
+  
+}
+
+
+
+.content{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  
+}
+
+.texts{
+  width: 25%;
+  margin-left: 85px;
+  
+}
+
+.titles{
+  color: #12305A;
+  font-family: Nasa;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+}
+
+.text{
+  padding-top: 35px;
+  font-weight: 550;
+  color: var(--azul-escuro)
+  
+ 
+}
+
+button{
+  margin-top: 15px;
+  background-color: var(--laranja);
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  color: white;
+  border-radius: 23px;
+  margin-left: 75px;
+  
 }
