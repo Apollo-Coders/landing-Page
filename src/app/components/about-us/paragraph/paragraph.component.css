@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 85%;
 }
 
 .main-title{
@@ -21,17 +24,27 @@
 .title-p{
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 30px;
     color: var(--laranja);
     font-family: 'Nasalization';
+    font-size: 1.3rem;
+    
 }
 
 .texts-p{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 18px;
     font-family: Poppins;
     color: white;
     font-weight: 350;
+    padding-left: 10px;
 }
 
+.visao{
+    padding-top: 2px;
+}
+
+.last-sentence{
+    padding-bottom: 5px;
+}
