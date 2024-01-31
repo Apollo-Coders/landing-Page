@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { CommonModule } from '@angular/common';
+import { ParagraphComponent } from './paragraph/paragraph.component';
 
 interface Team {
   nome: string;
@@ -12,7 +13,7 @@ interface Team {
 @Component({
   selector: 'app-about-us',
   standalone: true,
-  imports: [HeaderComponent, CommonModule],
+  imports: [HeaderComponent, CommonModule, ParagraphComponent],
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.css',
 })
