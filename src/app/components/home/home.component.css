@@ -1,20 +1,13 @@
 
-
-
-
 .home-box{
   background-color: var(--cinza);
   height: 100vh;
   padding-bottom: 45%;
-  background-image: url('../../assets/images/background.png');
+  background-image: url('../../../assets/images/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
-
-
 
 .image-logo{
   width: 35%;
