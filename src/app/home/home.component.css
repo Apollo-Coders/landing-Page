@@ -23,7 +23,7 @@
 
 
 .content{
-  margin-top: 70px;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   gap: 100px;
@@ -41,13 +41,14 @@
   color: #12305A;
   font-family: 'Nasalization';
   letter-spacing: 1.5px;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .text{
   padding-top: 35px;
-  font-weight: 550;
-  color: var(--azul-escuro)
+  font-weight: 400;
+  color: var(--azul-escuro);
+  font-family: 'Poppins';
 
 
 }
@@ -62,5 +63,6 @@ button{
   color: white;
   border-radius: 23px;
   margin-left: 75px;
+  font-family: 'Nasalization';
 
 }
