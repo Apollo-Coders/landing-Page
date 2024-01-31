@@ -9,6 +9,7 @@ h2{
     font-family: 'Nasalization';
     letter-spacing: 1.5px;
     font-size: 1.6rem;
+  
    
 }
 p{
@@ -22,5 +23,9 @@ p{
 img{
   height: 160px;
   width: 160px;
+}
+
+.container{
+  padding-top: 80px;
 }
 
