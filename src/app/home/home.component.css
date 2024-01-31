@@ -7,7 +7,7 @@
   height: 100vh;
   padding-bottom: 45%;
   background-image: url('../../assets/images/background.png');
-  
+
 }
 
 
@@ -17,7 +17,7 @@
 .image-logo{
   width: 35%;
   margin-left: 135px;
-  
+
 }
 
 
@@ -28,18 +28,18 @@
   align-items: center;
   gap: 100px;
 
-  
+
 }
 
 .texts{
   width: 25%;
   margin-left: 85px;
-  
+
 }
 
 .titles{
   color: #12305A;
-  font-family: Nasa;
+  font-family: 'Nasalization';
   letter-spacing: 1.5px;
   font-size: 2rem;
 }
@@ -48,8 +48,8 @@
   padding-top: 35px;
   font-weight: 550;
   color: var(--azul-escuro)
-  
- 
+
+
 }
 
 button{
@@ -62,5 +62,5 @@ button{
   color: white;
   border-radius: 23px;
   margin-left: 75px;
-  
+
 }
