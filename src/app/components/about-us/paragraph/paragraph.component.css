@@ -22,11 +22,16 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+    color: var(--laranja);
+    font-family: 'Nasalization';
 }
 
 .texts-p{
     display: flex;
     flex-direction: column;
     gap: 3px;
+    font-family: Poppins;
+    color: white;
+    font-weight: 350;
 }
 
