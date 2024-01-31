@@ -59,9 +59,17 @@ export class AboutUsComponent {
       nome: 'Luiz Carneiro',
       url_linkedin: '',
       url_github: 'https://github.com/luizcarneiro90',
-      email: 'luizcarneiro90@gmail.com',
+      email: 'lucas.vinicius03@outlook.com',
       image_src: 'assets/images/luiz.jpg',
-    },{
+    },
+    {
+      nome: 'Lucas Vinicius',
+      url_linkedin: 'https://www.linkedin.com/in/lucas-vin%C3%ADcius/',
+      url_github: 'https://github.com/LucasViniciuus',
+      email: 'lucas.vinicius03@outlook.com',
+      image_src: 'assets/images/lucas.jpg',
+    },
+    {
       nome: 'Luiza Ferreira',
       url_linkedin: 'https://www.linkedin.com/in/luizaferreirafonseca/',
       url_github: 'https://github.com/luizaferreirafonseca',
