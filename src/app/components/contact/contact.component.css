@@ -3,3 +3,41 @@
   height: 50px;
 }
 
+.contact-box{
+  background-color: var(--azul-escuro);
+  min-height: 100vh;
+}
+
+.contact-form{
+  background-color: var(--azul);
+  border-radius: 30px;
+}
+
+h2{
+  color: var(--laranja);
+}
+
+.contact-img{
+  border-radius: 10%;
+}
+
+p{
+  color: #fff;
+  font-family: 'Poppins';
+}
+
+.form-control{
+  border: none;
+  border-radius: 25px;
+}
+
+.form-button{
+  background-color: var(--laranja);
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  color: white;
+  border-radius: 23px;
+  font-family: 'Nasalization';
+}
