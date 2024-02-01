@@ -1,47 +1,49 @@
-.main-content{
-    padding-top: 6%;
+.main-content {
+  padding-top: 6%;
 }
 
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-top: 30px;
-    padding-bottom: 80px;
-    width: 85%;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  width: 85%;
 }
 
-.main-title{
-    color: var(--laranja);
-    font-family: 'Nasalization';
-    letter-spacing: 1.5px;
-
+.main-title {
+  color: var(--laranja);
+  font-family: "Nasalization";
+  letter-spacing: 1.5px;
 }
 
-.title-p{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    color: var(--laranja);
-    font-family: 'Nasalization';
-    font-size: 1.3rem;
-
+th {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: var(--laranja);
+  font-family: "Nasalization";
+  font-size: 1.3rem;
 }
 
-.texts-p{
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    font-family: 'Poppins';
-    color: var(--cinza);
-    padding-left: 10px;
+.texts-p {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: "Poppins";
+  color: var(--cinza);
+  padding-left: 10px;
 }
 
-.visao{
-    padding-top: 2px;
+.background,
+td,
+th,
+tr,
+table {
+  background-color: var(--azul-escuro);
+  border: none;
 }
-
-.last-sentence{
-    padding-bottom: 5px;
+td {
+  color: var(--cinza);
 }
