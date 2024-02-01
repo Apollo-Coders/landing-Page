@@ -7,7 +7,10 @@
       <div class="m-3" *ngFor="let member of team">
         <div class="p-2 card text-bg-light border-dark">
           <img
-            src="{{ member.image_src }}"
+            priority
+            width=200
+            height=300
+            ngSrc="{{ member.image_src }}"
             class="card-img-top rounded-circle object-fit-cover"
             height="160"
             alt="Imagem de {{ member.nome }}"
