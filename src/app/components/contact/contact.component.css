@@ -3,22 +3,37 @@
   height: 50px;
 }
 
+.container{
+  margin-top: 5%;
+  margin-left: 5%;
+  
+  
+}
+
+
+
 .contact-box{
   background-color: var(--azul-escuro);
   min-height: 100vh;
 }
 
 .contact-form{
-  background-color: var(--azul);
-  border-radius: 30px;
+  /* background-color: #dae1e75e; */
+  background-color:  #dae1e75e;
+  border-radius: 15px;
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
 }
 
 h2{
   color: var(--laranja);
+  font-family: 'Nasalization';
+  font-size: 1.5rem;
 }
 
 .contact-img{
-  border-radius: 10%;
+  border-radius: 15px;
 }
 
 p{
@@ -28,16 +43,33 @@ p{
 
 .form-control{
   border: none;
-  border-radius: 25px;
+  border-radius: 12px;
 }
 
 .form-button{
   background-color: var(--laranja);
-  padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 60px;
+  padding-right: 60px;
   border: none;
   color: white;
   border-radius: 23px;
   font-family: 'Nasalization';
+}
+
+input {
+  width: 100%;
+  
+}
+
+textarea{
+  width: 100%;
+}
+
+form {
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  
 }
