@@ -59,7 +59,7 @@ export class AboutUsComponent {
       nome: 'Luiz Carneiro',
       url_linkedin: '',
       url_github: 'https://github.com/luizcarneiro90',
-      email: 'lucas.vinicius03@outlook.com',
+      email: 'luizcarneiro90@gmail.com',
       image_src: 'assets/images/luiz.jpg',
     },
     {
