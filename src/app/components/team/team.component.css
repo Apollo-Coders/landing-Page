@@ -22,9 +22,13 @@ p{
 img{
   height: 160px;
   width: 160px;
+
 }
 
 .container{
   padding-top: 80px;
 }
 
+.cards{
+  background-color: var(--cinza);
+}
