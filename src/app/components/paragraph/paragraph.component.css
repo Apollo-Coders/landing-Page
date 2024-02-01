@@ -1,7 +1,4 @@
 .main-content{
-    /* padding-left: 110px;
-    padding-top: 60px; */
-    padding-left: 7%;
     padding-top: 6%;
 }
 
@@ -16,8 +13,7 @@
 }
 
 .main-title{
-    font-size: 1.6rem;
-    color: #ffffff;
+    color: var(--laranja);
     font-family: 'Nasalization';
     letter-spacing: 1.5px;
 

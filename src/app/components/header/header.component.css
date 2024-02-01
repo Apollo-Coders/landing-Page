@@ -1,10 +1,8 @@
 
-
 .header-box{
     font-family: 'Nasalization';
     display: flex;
     justify-content: space-between;
-   
 
 }
 
@@ -32,7 +30,7 @@
     color: var(--laranja);
 }
 
-nav a {
+a{
     cursor: pointer;
     text-decoration: none;
     color: white;
