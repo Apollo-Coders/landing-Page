@@ -12,7 +12,6 @@
 .image-logo{
   width: 35%;
   margin-left: 135px;
-
 }
 
 
@@ -41,15 +40,27 @@
 
 .titles p{
   margin-bottom: 0;
+  color: transparent;
 }
 
+.titles p:nth-child(1){
+  animation: text_reveal 2.5s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.titles p:nth-child(2){
+  animation: text_reveal 2.5s ease forwards;
+  animation-delay: 1.5s;
+}
 
 .text{
   padding-top: 35px;
   font-weight: 400;
-  color: var(--azul-escuro);
+  color: transparent;
   font-family: 'Poppins';
-
+  letter-spacing: 3px;
+  animation: joint_letters 2s ease forwards;
+  animation-delay: 2s;
 
 }
 
@@ -65,4 +76,17 @@ button{
   margin-left: 75px;
   font-family: 'Nasalization';
 
+}
+
+@keyframes text_reveal {
+	100% {
+		color: var(--azul-escuro);
+	}
+}
+
+@keyframes joint_letters {
+	100% {
+		letter-spacing: 1px;
+    color: var(--azul-escuro)
+	}
 }
