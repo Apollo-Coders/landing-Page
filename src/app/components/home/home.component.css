@@ -76,7 +76,7 @@ button{
   border-radius: 23px;
   margin-left: 75px;
   font-family: 'Nasalization';
-  animation: button_reveal 2s ease-in-out;
+  animation: button_reveal 1.5s ease-in forwards;
   opacity: 0;
   animation-delay: 2.5s;
 
@@ -99,5 +99,5 @@ button{
   to {
     opacity: 1;
   }
-  
+
 }
