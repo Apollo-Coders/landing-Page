@@ -23,3 +23,7 @@ img
   object-fit: cover;
   object-position: center;
 }
+
+h2{
+  font-size: 1.7rem;
+}
