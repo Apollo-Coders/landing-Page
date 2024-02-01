@@ -1,8 +1,7 @@
 
 .home-box{
+  height: 100vh;
   background-color: var(--cinza);
- 
- 
   background-image: url('../../../assets/images/background.png');
   background-size: cover;
   background-position: center;
@@ -11,13 +10,13 @@
 
 .image-logo{
   width: 35%;
-  margin-left: 135px;
+  /* margin-left: 135px; */
 }
 
 
 
 .content{
-  margin-top: 60px;
+  /* margin-top: 60px; */
   display: flex;
   align-items: center;
   gap: 100px;
@@ -41,7 +40,7 @@
 .titles p{
   margin-bottom: 0;
   color: transparent;
-} 
+}
 
 .titles p:nth-child(1){
   animation: text_reveal 2.5s ease forwards;
@@ -77,6 +76,9 @@ button{
   border-radius: 23px;
   margin-left: 75px;
   font-family: 'Nasalization';
+  animation: button_reveal 2s ease-in-out;
+  opacity: 0;
+  animation-delay: 2.5s;
 
 }
 
@@ -91,4 +93,10 @@ button{
 		letter-spacing: 1px;
     color: var(--azul-escuro)
 	}
+}
+
+@keyframes button_reveal {
+  to {
+    opacity: 1;
+  }
 }
