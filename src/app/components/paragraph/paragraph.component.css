@@ -19,31 +19,19 @@
 }
 
 th {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
   color: var(--laranja);
   font-family: "Nasalization";
-  font-size: 1.3rem;
 }
 
-.texts-p {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  font-family: "Poppins";
-  color: var(--cinza);
-  padding-left: 10px;
-}
-
-.background,
 td,
 th,
 tr,
 table {
   background-color: var(--azul-escuro);
   border: none;
+  letter-spacing: 1.5px;
 }
 td {
   color: var(--cinza);
+  font-family: "Poppins";
 }
