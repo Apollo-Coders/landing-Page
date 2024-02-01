@@ -3,9 +3,9 @@
   <app-header/>
   <div class="container fluid">
     <h2 class="mb-4">Nossa equipe</h2>
-    <div class="row">
-      <div class="col-md-2 col-sm-6" *ngFor="let member of team">
-        <div class="card text-bg-light mb-5 border-dark">
+    <div class="d-flex flex-wrap justify-content-center align-items-center">
+      <div class="m-3" *ngFor="let member of team">
+        <div class="p-2 card text-bg-light border-dark">
           <img
             src="{{ member.image_src }}"
             class="card-img-top rounded-circle object-fit-cover"
@@ -13,19 +13,21 @@
             alt="Imagem de {{ member.nome }}"
           />
           <div class="card-body">
-            <p class="card-text">{{ member.nome }}</p>
-            <a href="{{ member.url_github }}" target="_blank"
-              ><i class="fab fa-github fa-lg fa-fw mb-3" aria-hidden="true"></i
-            ></a>
-            <a href="mailto:{{ member.email }}" target="_blank"
-              ><i class="fa fa-envelope fa-lg fa-fw mb-3" aria-hidden="true"></i
-            ></a>
-            <a href="{{ member.url_linkedin }}" target="_blank"
-              ><i
-                class="fab fa-linkedin fa-lg fa-fw mb-3"
-                aria-hidden="true"
-              ></i
-            ></a>
+            <p class="card-text text-center">{{ member.nome }}</p>
+            <div class="contact-links d-flex justify-content-center">
+              <a href="{{ member.url_github }}" target="_blank"
+                ><i class="fab fa-github fa-lg fa-fw" aria-hidden="true"></i
+              ></a>
+              <a href="mailto:{{ member.email }}" target="_blank"
+                ><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i
+              ></a>
+              <a href="{{ member.url_linkedin }}" target="_blank"
+                ><i
+                  class="fab fa-linkedin fa-lg fa-fw"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
