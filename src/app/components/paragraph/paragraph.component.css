@@ -33,9 +33,8 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
-    font-family: Poppins;
-    color: white;
-    font-weight: 350;
+    font-family: 'Poppins';
+    color: var(--cinza);
     padding-left: 10px;
 }
 
