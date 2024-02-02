@@ -75,3 +75,7 @@ form {
   margin-right: 10px;
   
 }
+
+button:hover{
+  background-color: var(--azul-escuro);
+}

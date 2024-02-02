@@ -1,6 +1,6 @@
 
 .home-box{
-  height: 100vh;
+  height: 100%;
   background-color: var(--cinza);
   background-image: url('../../../assets/images/background.png');
   background-size: cover;
@@ -56,7 +56,7 @@
   padding-top: 15px;
   font-size: 1.0rem;
   font-weight: 400;
-  width: 500px;
+  width: 100%;
   color: transparent;
   font-family: 'Poppins';
   letter-spacing: 3px;
@@ -80,7 +80,9 @@ button{
   /* animation: button_reveal 1.5s ease-in-out; */
   opacity: 0;
   animation-delay: 1.5s;
-
+}
+button:hover{
+  background-color: var(--azul-escuro);
 }
 
 @keyframes text_reveal {

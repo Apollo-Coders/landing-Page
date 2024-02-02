@@ -11,15 +11,15 @@
     font-size: 2.3rem;
     color: var(--laranja);
     letter-spacing: 0.1rem;
-    margin-left: 60px;
-    margin-top: 45px;
+    margin-left: 30px;
+    margin-top: 22px;
 }
 
 .header-box nav {
     font-size: 1.2rem;
     display: flex;
-    margin-top: 48px;
-    margin-right: 10%;
+    margin-top: 24px;
+    margin-right: 5%;
     gap: 80px;
     color: white;
 
