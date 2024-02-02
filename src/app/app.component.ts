@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AboutUsComponent } from './components/about-us/about-us.component';
+import { TeamComponent } from './components/team/team.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, HomeComponent, AboutUsComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, HomeComponent, TeamComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

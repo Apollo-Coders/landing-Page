@@ -1,0 +1,37 @@
+.main-content {
+  padding-top: 6%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  width: 85%;
+}
+
+.main-title {
+  color: var(--laranja);
+  font-family: "Nasalization";
+  letter-spacing: 1.5px;
+}
+
+th {
+  color: var(--laranja);
+  font-family: "Nasalization";
+}
+
+td,
+th,
+tr,
+table {
+  background-color: var(--azul-escuro);
+  border: none;
+  letter-spacing: 1.5px;
+}
+td {
+  color: var(--cinza);
+  font-family: "Poppins";
+}

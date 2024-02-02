@@ -1,16 +1,15 @@
 
 .about-box {
   background-color: #183661;
-  
+
 }
 
-h2{
-    color: #ffffff;
+h1{
+    color: var(--laranja);
     font-family: 'Nasalization';
     letter-spacing: 1.5px;
-    font-size: 1.6rem;
-  
-   
+
+
 }
 p{
     color: #130c0b;
@@ -23,9 +22,13 @@ p{
 img{
   height: 160px;
   width: 160px;
+
 }
 
 .container{
   padding-top: 80px;
 }
 
+.cards{
+  background-color: var(--cinza);
+}

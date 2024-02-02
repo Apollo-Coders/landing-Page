@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { CommonModule } from '@angular/common';
-import { ParagraphComponent } from './paragraph/paragraph.component';
+import { ParagraphComponent } from '../paragraph/paragraph.component';
 import { NgOptimizedImage } from '@angular/common';
+import { FooterComponent } from "../footer/footer.component";
 
 interface Team {
   nome: string;
@@ -12,18 +13,19 @@ interface Team {
   image_src: string;
 }
 @Component({
-  selector: 'app-about-us',
-  standalone: true,
-  imports: [
-    HeaderComponent,
-    CommonModule,
-    ParagraphComponent,
-    NgOptimizedImage,
-  ],
-  templateUrl: './about-us.component.html',
-  styleUrl: './about-us.component.css',
+    selector: 'app-team',
+    standalone: true,
+    templateUrl: './team.component.html',
+    styleUrl: './team.component.css',
+    imports: [
+        HeaderComponent,
+        CommonModule,
+        ParagraphComponent,
+        NgOptimizedImage,
+        FooterComponent
+    ]
 })
-export class AboutUsComponent {
+export class TeamComponent {
   team: Team[] = [
     {
       nome: 'Brenda Aniceto',
